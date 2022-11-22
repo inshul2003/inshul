@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML FORM INPUT</title>
+	<style type="text/css">
+		body{
+			background: linear-gradient(to right, blue,white);
+		}
+	</style>
+	<script> type="text/javascript">
+		function arith()
+		{
+			var n1 = document.getElementById('num1').value;
+			var n2 = document.getElementById('num2').value;
+			var n3 = document.getElementById('num3').value;
+			alert(n1);
+			alert(n2);
+			alert(n3);
+		}		
+	</script>
+</head>
+<body>
+<form>
+	<h1 style='color:violet'>HTML FORM INPUT</h1>
+	<labe1>First Number: </labe1>
+	<input type="name" name="num1" id="num1"
+	placeholder="Enter any number">
+	<br>
+	<br>
+	<labe1>Second Number: </labe1>
+	<input type="number" name="num2" id="num2"
+	placeholder="Enter any number">
+	<br>
+	<br>
+	<labe1>Third Number: </labe1>
+	<input type="number" name="num3" id="num3"
+	placeholder="Enter any number">
+	<br>
+	<br>
+	<input type="submit" onClick="arith()">
+</form>
+</body>
+</html>
